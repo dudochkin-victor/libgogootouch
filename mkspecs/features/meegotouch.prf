@@ -5,6 +5,7 @@ LIBS += $$mAddLibrary(meegotouchcore)
     !contains(DEFINES, BUILD_M) {
         LIBS += \
 	    $$mAddLibrary(meegotouchsettings) \
-	    $$mAddLibrary(meegotouchextensions)
+	    $$mAddLibrary(meegotouchextensions) \
+	    $$mAddLibrary(meegotouchviews)
     }
 }
