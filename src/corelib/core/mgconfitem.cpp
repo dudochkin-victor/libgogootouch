@@ -58,7 +58,7 @@ get_gconf_client ()
     if (s_gconf_client)
         return s_gconf_client;
 
-    g_type_init();
+//    g_type_init();
     s_gconf_client = gconf_client_get_default();
 
     return s_gconf_client;
